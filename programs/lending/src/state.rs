@@ -25,6 +25,8 @@ pub struct User {
     pub usdc_address: Pubkey,
     // Last updated timestamp
     pub last_updated: i64,
+    // Last updated timestamp for borrowed
+    pub last_updated_borrowed: i64,
 }
 
 

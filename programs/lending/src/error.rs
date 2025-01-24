@@ -6,4 +6,6 @@ pub enum LendingError {
     InsufficientFunds,
     #[msg("Requested amount is greater than borrowable amount")]
     InsufficientCollateral,
+    #[msg("Over repay")]
+    OverRepay,
 }
