@@ -8,4 +8,6 @@ pub enum LendingError {
     InsufficientCollateral,
     #[msg("Over repay")]
     OverRepay,
+    #[msg("Not undercollateralized")]
+    NotUndercollateralized,
 }
